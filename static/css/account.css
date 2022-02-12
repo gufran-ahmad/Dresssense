@@ -1,0 +1,31 @@
+form {
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgb(219, 219, 219);
+}
+
+input {
+    background-color: rgb(219, 219, 219) !important;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 50px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+input:focus {
+    font-weight: bold !important;
+    border: none !important;
+    outline: none !important;
+}
+
+button {
+    border-radius: 50px !important;
+    font-weight: bold !important;
+    background-color: purple !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.acc-link {
+    text-decoration: none !important;
+    color: purple !important;
+}

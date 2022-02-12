@@ -1,0 +1,27 @@
+.topbar1 {
+    background-color: rgb(234, 208, 255);
+}
+
+.ticon {
+    margin: 0 auto;
+    font-size: larger;
+    text-align: center;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.topbar1 input {
+    width: 95%;
+    border: 1px ridge rgb(99, 0, 180);
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(247, 240, 252);
+}
+
+.topbar1 input::-webkit-input-placeholder {
+    font-weight: lighter;
+}

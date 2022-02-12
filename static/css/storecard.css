@@ -1,0 +1,40 @@
+.card {
+    height: 30vh;
+    width: 45vw;
+    margin: 10px 10px;
+}
+
+.card img {
+    width: auto;
+    height: 80%;
+}
+
+.details {
+    height: 20%;
+    background-color: red;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bigcard {
+    height: 25vh;
+    width: 95%;
+    background: linear-gradient(rgb(212, 160, 255), rgb(230, 200, 255));
+    margin: 10px auto !important;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.detail h3 {
+    text-transform: uppercase;
+}
+
+.detail h3::after {
+    content: "";
+    height: 5px;
+    width: 50px;
+    margin-top: 4px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
